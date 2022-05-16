@@ -9,6 +9,15 @@
           i.fas.fa-info
       h1 Introducción
 
+    p.mb-5 Le damos la bienvenida al componente “Implementación de BPG en bovinos de carne”, en el cual le auguramos una experiencia de mucho aprendizaje. Para comenzar, explore el siguiente recursos:
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+
+
+
 </template>
 
 <script>

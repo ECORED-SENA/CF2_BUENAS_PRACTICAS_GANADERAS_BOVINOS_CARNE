@@ -1,0 +1,35 @@
+.cajon.color-primario
+    background-color: #DDEFD7
+
+.bg-degrade
+  background: #FFD63D
+  opacity: 1
+
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%)
+
+.bg3
+  background-color: #FFD63D
+  opacity: 0.9
+
+.linea-tiempo-e.color-primario .linea-tiempo-e__item__header:before
+  border-color: #3BC192
+
+.bloque-texto-b.color-primario:before
+  background-color: #DDEFD7
