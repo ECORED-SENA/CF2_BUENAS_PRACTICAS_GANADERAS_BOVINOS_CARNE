@@ -1023,6 +1023,28 @@
         figure
           img(src='@/assets/curso/tema1/img27.png')
 
+    .row.justify-content-center.mb-5
+      .col-md-8.col-11.p-3.mb-5.BG05
+        p.text-center <b>Figura 1</b> Metas de BPG de carne
+      .col-md-8.col-11.p-3.mb-5
+        figure
+          img(src='@/assets/curso/tema1/img28.svg')
+      .col-md-10.col-12.BG06.p-2
+        .row.justify-content-center.align-items-center
+          .col-md-2.col-4
+            figure
+              img(src='@/assets/curso/tema1/img29.svg')
+          .col-md-7.col-5
+            h4 Plan de Implementación de BPG
+            p Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
+          .col-md-2.col-3
+            a.boton.color-acento-contenido(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
+              span Descargar
+              i.fas.fa-file-download
+
+
+
+
 
 </template>
 
