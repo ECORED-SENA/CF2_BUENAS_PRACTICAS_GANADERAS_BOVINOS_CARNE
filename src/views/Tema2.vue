@@ -27,13 +27,67 @@
     p.mb-5 Conozca los aspectos generales relacionados con procedimientos, procesos y registros, que se enuncian a continuación. Recuerde llevar nota en su libreta personal de apuntes:
 
     .row.justify-content-center.mb-5.BG01
-      .col-md-10.col-11
+      .col-md-10.col-11.py-5
         SlyderA(tipo="b")
-          .row  
-            .col-md-5
+          .row.me-1
+            .col-md-6
               .row  
                 .col-12.p-3.BG07
-                  h5.ps-5 
+                  h5.ps-5 Procedimientos
+                .col-12.p-4.BG08
+                  p Sirven para detallar un proceso y están conformados por actividades cronológicas del personal encargado, regidas por normas. Los procedimientos de las BPG están encaminados a la certificación por buen manejo de la crianza, explotación y exportación de carne bovina para consumo humano. La normativa por cumplir la reglamenta el ICA.
+            .col-md-6.ps-0
+              figure
+                img(src='@/assets/curso/tema2/img03.png')
+          .row.ms-1 
+            .col-md-6
+              .row  
+                .col-12.p-3.BG07
+                  h5.ps-5 Procesos
+                .col-12.p-4.BG08
+                  p Cadena de actividades realizadas para alcanzar una meta o propósito. Vinculan al personal para darles tareas, de acuerdo a su profesión o experiencia, lo cual permite un control y ordenar todas las secciones o departamentos de la empresa ganadera. Los procesos mejoran las actividades administrativas y productivas de los predios y permiten que la ganadería se establezca como una empresa competitiva y eficaz. 
+            .col-md-6.ps-0
+              figure
+                img(src='@/assets/curso/tema2/img04.png')
+          .row.ms-1 
+            .col-md-6
+              .row  
+                .col-12.p-3.BG07
+                  h5.ps-5 Entes de control
+                .col-12.p-4.BG08
+                  p Existen entes de control que se encargan de verificar los estándares de la producción y velar por el funcionamiento y calidad del producto final. El  ICA se encarga de prevenir, vigilar y controlar los riesgos sanitarios, biológicos y químicos para las especies animales y vegetales. FEDEGAN, organiza el gremio ganadero a nivel nacional.
+            .col-md-6.ps-0
+              figure
+                img(src='@/assets/curso/tema2/img05.png')
+          .row.ms-1
+            .col-md-6
+              .row  
+                .col-12.p-3.BG07
+                  h5.ps-5 Registros BPG
+                .col-12.p-4.BG08
+                  p Es documentación que consigna la actividad específica y propia de una empresa o establecimiento, conserva información y su trazabilidad en archivos. Para llevar adecuadamente la documentación, deben existir unos parámetros claros para la empresa. Algunos parámetros son:
+            .col-md-6.ps-0
+              figure
+                img(src='@/assets/curso/tema2/img06.png')
+          .row.ms-1 
+            .col-md-6
+              .row  
+                .col-12.p-3.BG07
+                  h5.ps-5 Manejo de los registros
+                .col-12.p-4.BG08
+                  p El manejo acertado de registros es una condición indispensable que ayuda a que la empresa ganadera tenga, entre otras, soporte financiero y rentable, además de crear un archivo que permite visualizar los avances de las labores productivas, económicas, comerciales, etc. Algunos de estos registros son:
+            .col-md-6.ps-0
+              figure
+                img(src='@/assets/curso/tema2/img07.png')
+        
+    .row.justify-content-center.mb-5
+      .col-md-7
+        a.anexo.mb-4.mb-lg-0(href="https://www.ica.gov.co/getattachment/74510117-1403-4242-81f9-b7224b32b0fd/Por-la-cual-se-establecen-los-requisitos-para-3.aspx" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Afiance su saber sobre procedimientos, procesos y registros, explorando el enlace que aquí se propone:
+
 
 
 

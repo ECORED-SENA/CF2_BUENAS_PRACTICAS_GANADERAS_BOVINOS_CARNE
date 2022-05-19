@@ -134,32 +134,91 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'Plan de Implementación',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=F1SXng6fIr4&t=227s',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Plan de implementación',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=leSpGVgUde0',
+    },
+    {
+      texto: 'Documentación y Metas BPG',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=z_g_1Fn4exk',
+    },
+    {
+      texto: 'Procedimientos, procesos y registros de la implementación BPG',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=CDffdvhbR_c',
+    },
+    {
+      texto: 'Gestión documental: concepto y técnicas',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uxLwxvnG2NY',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'ICA',
+      significado:
+        'Como lo indica sus siglas, el ICA es el Instituto Colombiano Agropecuario: entidad Pública del Orden Nacional agropecuaria, que tiene como función la prevención, vigilancia y control de todo riesgo sanitario, biológico y químico en las especies animales y vegetales.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Implementación',
+      significado:
+        'Es la ejecución de una idea la cual tiene un proceso dónde se cumplen unas normas o parámetros.',
+    },
+    {
+      termino: 'Personal',
+      significado:
+        'Conjunto de las personas que que laboran en un lugar, dependencia, ganadería, etc.',
+    },
+    {
+      termino: 'Resolución',
+      significado:
+        'Son decisiones o normativas que imparte una autoridad la cual es para cumplir las pautas de acuerdo a lo establecido.',
+    },
+    {
+      termino: 'Sanidad',
+      significado:
+        'Estado óptimo de un ser viviente con respecto a la sanidad y bienestar del mismo. ',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Un procedimiento que permite identificar y evaluar el proceso de un producto en toda su etapa de producción.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Corrientes Portal Turístico Provincial (s.f.). Ganadería de Corrientes. Corrientes.',
+      link: 'http://www.corrientes.com.ar/provincia/ganaderia.php',
+    },
+    {
+      referencia:
+        'Federación Colombiana de Ganaderos (s.f.). Buenas Prácticas Ganaderas. FEDEGAN.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.fedegan.org.co/programas/buenas-practicas-ganaderas#:~:text=Las%20Buenas%20Pr%C3%A1cticas%20Ganaderas%20(BPG,que%20trabajan%20en%20la%20explotaci%C3%B3n',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (s.f.). Reglamento sobre las condiciones sanitarias y de inocuidad en la producción de ganado bovino y porcino.',
+      link:
+        'https://www.ica.gov.co/getdoc/016f3c96-a458-4fa6-ae96-41d18b2221f5/requisitos-sanitarios-y-de-inocuidad-en-la-producc.aspx',
+    },
+    {
+      referencia:
+        'OnCuba (08 de noviembre de 2018). Ganadería cubana: más leche, pero muy lejos de satisfacer la demanda. Oncuba next.',
+      link:
+        'https://oncubanews.com/cuba/ganaderia-cubana-mas-leche-pero-muy-lejos-de-satisfacer-la-demanda/',
+    },
+    {
+      referencia:
+        'Resolución 002341 de 2007. [Instituto Colombiano Agropecuario]. Por la cual se reglamentan las condiciones sanitarias y de inocuidad en la producción primaria de ganado bovino y bufalino destinado al sacrificio para consumo humano. Agosto 23 de 2007',
+      link: '',
     },
   ],
   creditos: {
@@ -186,8 +245,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -199,7 +292,25 @@ export default {
       },
       {
         nombre: 'Nombre',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
         cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
