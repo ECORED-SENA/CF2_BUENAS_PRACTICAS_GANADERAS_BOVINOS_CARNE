@@ -147,15 +147,17 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
-        td(style="background-color: #E5F3E1; color: #000").text-center <b>1</b>
-        td.ps-4(style="background-color: #FBF7F1; color: #000") <b>SANIDAD ANIMAL</b>  
+        td(style="background-color: #E5F3E1; color: #000; width: 12%").text-center <b>1</b>
+        td.ps-4(style="background-color: #FBF7F1; color: #000; width: 68%") <b>SANIDAD ANIMAL</b>
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
       tr  
@@ -193,12 +195,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>2</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>IDENTIFICACIÓN</b>  
@@ -219,12 +223,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>3</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>BIOSEGURIDAD</b>  
@@ -260,12 +266,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>4</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BUENAS PRÁCTICAS PARA EL USO DE MEDICAMENTOS VETERINARIOS-BPMV.</b>  
@@ -336,12 +344,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>5</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BUENAS PRÁCTICAS PARA LA ALIMENTACIÓN ANIMAL –BPAA.</b>  
@@ -387,12 +397,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>6</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE SANEAMIENTO.</b>  
@@ -438,12 +450,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>7</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BIENESTAR ANIMAL.</b>  
@@ -499,12 +513,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>8</b>
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE PERSONAL.</b>  
@@ -669,12 +685,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-2(style="background-color: #FBF7F1; color: #000") <b>SANIDAD ANIMAL</b>  
@@ -714,12 +732,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-2(style="background-color: #FBF7F1; color: #000") <b>IDENTIFICACIÓN</b>  
@@ -734,17 +754,20 @@
         td(style="background-color: #E5F3E1; color: #000").text-center 8
         td.ps-4(style="background-color: #FBF7F1; color: #000") Posee un registro individual de los animales.
         td(style="background-color: #FFF5E5; color: #000") 
-        td(style="background-color: #FFFAF2; color: #000") 
+        td(style="background-color: #FFFAF2; color: #000")
+
     table.mb-4
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>BIOSEGURIDAD</b>
@@ -779,12 +802,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BUENAS PRÁCTICAS PARA EL USO DE MEDICAMENTOS VETERINARIOS-BPMV.</b>
@@ -854,12 +879,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BUENAS PRÁCTICAS PARA LA ALIMENTACIÓN ANIMAL-BPAA</b>
@@ -888,6 +915,7 @@
       tr  
         td(style="background-color: #DDEFD7; color: #000").text-center 30
         td.ps-4(style="background-color: #F8F2E8; color: #000") Tiene un inventario de alimentos y materias primas utilizadas.
+        td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 31
@@ -898,12 +926,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No    
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE SANEAMIENTO</b>
@@ -932,21 +962,25 @@
       tr  
         td(style="background-color: #DDEFD7; color: #000").text-center 36
         td.ps-4(style="background-color: #F8F2E8; color: #000") Realiza periodo de carencia de los productos plaguicidas en uso agrícola.
+        td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 37
         td.ps-4(style="background-color: #FBF7F1; color: #000") Tiene registro de plaguicidas agrícolas.
+        td(style="background-color: #FFF5E5; color: #000")
         td(style="background-color: #FFFAF2; color: #000") 
     table.mb-4
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No      
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BIENESTAR ANIMAL</b>
@@ -961,12 +995,14 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="colspan:2")
-          tr(style="background-color: #FFCE7E; color: #000").text-center Cumple
-            table
-              tr
-                td(style="background-color: #FFEBCB; color: #000").text-center Sí
-                td(style="background-color: #FFF0D8; color: #000").text-center No      
+        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+          table
+            tr
+              td(style="background-color: #FFEBCB; color: #000").text-center Sí
+        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
+          table
+            tr
+              td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE PERSONAL</b>
@@ -1052,9 +1088,7 @@
 export default {
   name: 'Tema1',
   components: {},
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

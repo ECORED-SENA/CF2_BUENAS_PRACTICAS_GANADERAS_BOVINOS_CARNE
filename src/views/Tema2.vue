@@ -42,9 +42,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
