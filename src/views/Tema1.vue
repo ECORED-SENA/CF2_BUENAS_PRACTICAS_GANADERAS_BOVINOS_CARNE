@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Plan de implementación
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.col-md-6.col-10.order-md-1.order-2.mt-5(data-aos="fade-right")
@@ -62,37 +62,37 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-12.order-md-1.order-2
-        p Se trata de aquellas metas establecidas dentro del plan de Buenas Prácticas Ganaderas, con las cuales se favorece el cumplimiento de las mismas, en todos los predios interesados en cumplir la norma y ser competitivos a nivel nacional e internacional. Es de suma importancia, para el gremio ganadero, que las entidades como el ICA y el INVIMA intervengan en los procesos en los cuales se encuentre la cadena primaria (consumo de carne bovina)
+        p #[strong Se trata de aquellas metas establecidas dentro del plan de Buenas Prácticas Ganaderas, con las cuales se favorece el cumplimiento de las mismas, en todos los predios interesados en cumplir la norma y ser competitivos a nivel nacional e internacional]. Es de suma importancia, para el gremio ganadero, que las entidades como el ICA y el INVIMA intervengan en los procesos en los cuales se encuentre la cadena primaria (consumo de carne bovina)
         p En la ganadería bovina se debe contar con una misión y visión marcadas, debido a que esto refleja la motivación y empeño del negocio y fija las metas en calidad del producto y bienestar común. Cabe resaltar que, en la implementación de BPG, los objetivos clave son:
       .col-lg-5.col-md-6.col-10.order-md-2.order-1
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img06.png')
 
     .row.mb-5
       LineaTiempoE.color-primario
         .row(titulo="Trazar programas")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Trazar programas sanitarios y de inocuidad. 
         .row(titulo="Recopilar y organizar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Recopilar y organizar los registros para manejo administrativo.
         .row(titulo="Implementar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Implementar las buenas prácticas pecuarias en la alimentación y en el uso de los medicamentos.
         .row(titulo="Instaurar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Instaurar requisitos sanitarios en la propiedad. 
         .row(titulo="Implementar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Implementar registro de vehículos. 
         .row(titulo="Inspeccionar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Inspeccionar los insumos y medicamentos  
         .row(titulo="Efectuar")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Efectuar programa de saneamiento 
         .row(titulo="Cumplir")
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             p Cumplir con los requerimientos del almacenamiento de insumos
       
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -119,7 +119,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2.mt-5(data-aos="fade-right")
         .cajon-b.color-acento-contenido.p-3.mb-5
-          p La lista de chequeo es un formato impreso que se diligencia como medio de información de ciertos puntos o situaciones de control y es muy utilizada en auditorías de calidad. La función principal es identificar si hay un mal procedimiento y es el primer paso para una auditoría y la manera de cómo analizarla y dar solución a este inconveniente.
+          p #[strong La lista de chequeo es un formato impreso que se diligencia como medio de información de ciertos puntos o situaciones de control y es muy utilizada en auditorías de calidad]. La función principal es identificar si hay un mal procedimiento y es el primer paso para una auditoría y la manera de cómo analizarla y dar solución a este inconveniente.
           p Para realizar una lista de chequeo, se deben tener algunos parámetros y se requieren formular algunas preguntas orientadoras, como las que se mencionan a continuación:
       .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="fade-left")
         figure
@@ -143,7 +143,7 @@
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
         p <b>Tabla 1</b> Lista de chequeo para comercialización de productos cárnicos
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -191,7 +191,7 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -219,7 +219,7 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -262,7 +262,7 @@
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -340,7 +340,7 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -393,7 +393,7 @@
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -446,7 +446,7 @@
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
       
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -509,7 +509,7 @@
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
@@ -542,7 +542,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-4.col-md-5.col-8
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img11.svg')
       .col-lg-6.col-md-7.col-10
         .bloque-texto-b.color-primario.p-4
@@ -550,9 +550,9 @@
             p Los parámetros son elementos que permiten clasificar, medir y determinar las condiciones de un proceso, en cualquiera de sus líneas. Se trata de un método que, al momento de evaluar diferentes situaciones en particular, determina las variables representativas dando un pronóstico del panorama que se está analizando.
     p.mb-5 Conozca algunos aspectos importantes, relacionados con los parámetros en las buenas prácticas ganaderas:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-right")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Diagnóstico de áreas de trabajo")
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img12.png')
@@ -560,7 +560,7 @@
             h5 Diagnóstico de áreas de trabajo
             p Para identificar los parámetros, dentro de un proceso, se realiza un diagnóstico del área a trabajar; además, se determinan todos los puntos donde se presenta mayor concentración de labor.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de parámetros")
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img13.png')
@@ -568,7 +568,7 @@
             h5 Análisis de parámetros
             p Una vez identificados los puntos donde hay mayor trabajo, se analizan los parámetros que se generan, permitiendo clasificar y medir las condiciones y, entonces, tener mayor control de la función que se está desarrollando. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Responsables")
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img14.png')
@@ -576,7 +576,7 @@
             h5 Responsables
             p El personal responsable de realizar el debido seguimiento son los operarios de una empresa u organización y el análisis que los asigna, lo hace profesional a cargo o la persona que conoce el proceso.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Evaluación de variables")
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img15.png')
@@ -584,11 +584,11 @@
             h5 Evaluación de variables
             p En ganadería de carne, las variables a evaluar se determinan de acuerdo al área de proceso; es así como se encuentran diferentes parámetros, los cuales se deben manejar independientemente, pero con un fin en particular: la obtención de un producto inocuo y de calidad para los consumidores. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Verificación de las entidades competentes")
-        .row.justify-content-center
-          .col-md-4
+        .row.justify-content-center.align-items-center
+          .col-md-6
             figure
-              img(src='@/assets/curso/tema1/img16.png')
-          .col-md-7
+              img(src='@/assets/curso/tema1/img16.svg')
+          .col-md-6
             h5 Verificación de las entidades competentes
             p Generalmente, la revisión la efectúan los administradores de la finca o predio en proceso de certificación y, luego, son verificados por las entidades como el ICA para, posteriormente, ser comercializados y direccionados a su consumidor final.
 
@@ -598,15 +598,15 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-12.order-md-1.order-2
         p Se trata de métodos usados para alcanzar objetivos, siendo muy similares a los utilizados en investigaciones científicas; sirven para organizar la estructura de una empresa o proyecto, debido a que generan instrumentos para valorar los tiempos y costos de la producción. Las personas encargadas son, generalmente, los ganaderos propietarios de fincas o las personas encargadas de su administración. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           p En los predios que se quieran certificar en BPG por parte del ICA, tales metodologías se aplican en todo el proceso (proceso completo) de la producción de carne. 
       .col-lg-5.col-md-6.col-11.order-md-2.order-1
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img17.png')
 
     p.mb-5 Aunque la metodología de las buenas prácticas ganaderas tiene unas fases acordes a la visión del ganadero, existen algunas que son indispensables para el manejo de la producción. Aquí se las presentamos:
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-5.col-md-6.col-9.mb-4
         figure
           img(src='@/assets/curso/tema1/img18.svg')
@@ -663,7 +663,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img24.png')})`}"
           )
-          .bloque-texto-g__texto.p-5
+          .bloque-texto-g__texto.p-5(data-aos="fade-left")
             p El propósito principal de la aplicación de la estrategia de evaluación es alcanzar los indicadores sugeridos por los entes de control y alcanzar las metas propuestas que benefician tanto al productor como al consumidor y, en general, generar un buen servicio en óptimas condiciones.
       .col-md-8
         TabsC.color-acento-contenido
@@ -681,7 +681,7 @@
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
         p <b>Tabla 2</b> Lista de chequeo de estrategias de evaluación
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -728,7 +728,7 @@
         td.ps-4(style="background-color: #FBF7F1; color: #000") Cuenta con lugar para almacenar equipos y medicamentos.
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -756,7 +756,7 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000")
 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -798,7 +798,7 @@
         td.ps-4(style="background-color: #F8F2E8; color: #000") Posee guías sanitarias de movilización de los semovientes.
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -875,7 +875,7 @@
         td.ps-4(style="background-color: #FBF7F1; color: #000") Utiliza un control de medicamentos especiales de acuerdo con la norma.
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -922,7 +922,7 @@
         td.ps-4(style="background-color: #FBF7F1; color: #000") Realiza un registro de calidad de agua.
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -969,7 +969,7 @@
         td.ps-4(style="background-color: #FBF7F1; color: #000") Tiene registro de plaguicidas agrícolas.
         td(style="background-color: #FFF5E5; color: #000")
         td(style="background-color: #FFFAF2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -991,7 +991,7 @@
         td.ps-4(style="background-color: #F8F2E8; color: #000") Posee instalaciones adecuadas para los animales.
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
-    table.mb-4
+    table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
@@ -1034,13 +1034,14 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.col-md-6.col-11
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img25.png')
       .col-lg-7.col-md-6.col-12
         p La documentación es un proceso que consiste en recopilar datos e identificar información verídica de un tema, para la obtención de un nuevo conocimiento. Su principal función es garantizar la conservación de datos, además de intercambiar información con un equipo de trabajo, a fin de crear un documento sólido que permita reconocer, en una empresa u organización, la existencia de errores, prácticas, registros, entre otras fuentes.
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="fade-left")
           p En el año 2020 se creó la resolución 068167 por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG, en la producción de carne de bovinos y/o bufalinos.
-    .row.mb-4
+    
+    .row.mb-4(data-aos="fade-right")
       .col-md-2.col-4
         .row.BG04.align-items-center
           .col-6.ps-5.pt-3
@@ -1056,7 +1057,7 @@
           p El alcance oportuno de las metas, facilita el aseguramiento de la inocuidad y el posicionamiento de la finca en el mercado nacional e internacional, trazando un panorama productivo y competitivo.
         p Las metas de BPG de carne son:
       .col-lg-3.col-md-4.col-8.order-md-2.order-1
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img27.png')
 
     .row.justify-content-center.mb-5

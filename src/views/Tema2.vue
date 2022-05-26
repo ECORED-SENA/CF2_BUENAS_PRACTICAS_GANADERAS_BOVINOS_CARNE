@@ -9,24 +9,24 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-md-4.col-10.mb-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img01.png')
       .col-md-7.col-11
         p Un procedimiento es un conjunto de actividades detalladas que se describen secuencialmente y deben cumplir con unas condiciones establecidas por las normas: duración, documentación, entre otras. 
-        .bloque-texto-b.color-primario.p-4
+        .bloque-texto-b.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
             p <b>Para el caso de BPG, la norma que regula tales procedimientos es la resolución 068167 de 2020, por la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de carne de bovinos y/o bufalinos.</b>
       .col-md-10.col-12
         .cajon.color-acento-contenido.p-2
           .row.align-items-center.justify-content-center
             .col-2
-              figure
+              figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema2/img02.svg')
-            .col-9
+            .col-9(data-aos="fade-left")
               p Adicional a las exigencias normativas, para el cumplimiento y salubridad de un producto inocuo y de alta calidad para el consumo humano, se debe cumplir con un registro en el que se evidencie el desarrollo de cada una de las actividades de la empresa. 
     p.mb-5 Conozca los aspectos generales relacionados con procedimientos, procesos y registros, que se enuncian a continuación. Recuerde llevar nota en su libreta personal de apuntes:
 
-    .row.justify-content-center.mb-5.BG01
+    .row.justify-content-center.mb-5.BG01(data-aos="fade-right")
       .col-md-10.col-11.py-5
         SlyderA(tipo="b")
           .row.me-1
@@ -80,13 +80,13 @@
               figure
                 img(src='@/assets/curso/tema2/img07.png')
         
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-md-7
         a.anexo.mb-4.mb-lg-0(href="https://www.ica.gov.co/getattachment/74510117-1403-4242-81f9-b7224b32b0fd/Por-la-cual-se-establecen-los-requisitos-para-3.aspx" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Afiance su saber sobre procedimientos, procesos y registros, explorando el enlace que aquí se propone:
+            p #[strong Enlace web]. Afiance su saber sobre procedimientos, procesos y registros, explorando el enlace que aquí se propone:
 
 
 
