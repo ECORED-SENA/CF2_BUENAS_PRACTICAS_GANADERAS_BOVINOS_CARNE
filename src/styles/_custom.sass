@@ -80,7 +80,11 @@
 
 .BG08
   background-color:#DDEFD7
-  height: 270px
+  height: 276px
+
+@media screen and (max-width: 1200px) and (min-width: 992px)
+  .BG08
+    height: 244px
 
 .BG09
   background-color:#DDEFD7
@@ -96,6 +100,10 @@
 .BG012
   background-color: #FFF3C6
   border-radius: 0px
+
+.BG13
+  background-color: #F5EAD9
+  border-radius: 5px
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #F4F4F5
@@ -117,10 +125,28 @@
   border-right: 25px solid transparent
   border-top: 40px solid transparent
 
+.tabs-c
+  border-bottom: 0px
+
 .img01
-  margin-top: -10%
-  margin-left: -45%
-  width: 45%
+  position: relative
+  width: 51px !important
+  height: 80px !important
+  left: -75% !important
+
+.img02
+  max-width: 150%
+  width: 130%
+
+.img03
+  width: 75%
+
+.cajon-b.color-acento-botones:before
+  background-color: #F5EAD9 !important
+  top: 60% !important
+  left: 0 !important
+  right: 70% !important
+  bottom: 0% !important
 
 .bloque-texto-g.color-primario
   background-color: #DDEFD7
@@ -130,7 +156,35 @@
 
 .item-right .bloque-texto-g__img
   left: 50%
+  @media screen and (max-width: 992px)
+    left: 0%
 
 .item-right .bloque-texto-g__texto
   right: 0%
   left: -40%
+  @media screen and (max-width: 992px)
+    left: 0%
+
+th
+  font-size: 16px
+
+.tabs-c__tab
+  line-height: 3
+  font-size: 18px
+
+.fa-paper-plane:before
+  color: #FFD63D
+
+.pdr
+  padding-right: 0 
+  @media screen and (max-width: 420px)
+    padding-right: calc(var(--bs-gutter-x)/ 2)
+
+.alt
+  height: 220px
+
+.bloque-texto-b.color-primario:before
+  top: 10%
+  bottom: 62%
+  left: 70%
+  right: 0

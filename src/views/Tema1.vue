@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
       h1 Plan de implementación
@@ -31,28 +31,28 @@
       .col-lg-3.mb-3
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img03.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 ICA
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.ms-4.mb-0 ICA
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center
             .p-4
               h5 ICA
-              p.mb-0  El Instituto Colombiano Agropecuario, ICA, es una entidad Pública del Orden Nacional con personería jurídica, autonomía administrativa y patrimonio independiente, perteneciente al Sistema Nacional de Ciencia y Tecnología, adscrita al Ministerio de Agricultura y Desarrollo Rural.      .col-lg-3.mb-3.mb-md-0
+              p.mb-0  El Instituto Colombiano Agropecuario, ICA, es una entidad Pública del Orden Nacional con personería jurídica, autonomía administrativa y patrimonio independiente, perteneciente al Sistema Nacional de Ciencia y Tecnología, adscrita al Ministerio de Agricultura y Desarrollo Rural.
       .col-lg-3.mb-3
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img04.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 INVIMA
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.ms-4.mb-0 INVIMA
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center
             .p-4
               h5 INVIMA
               p.mb-0 Instituto Nacional de Vigilancia de Medicamentos y Alimentos, es una entidad de vigilancia y control de carácter técnico científico, que trabaja para la protección de la salud individual y colectiva de los colombianos, mediante la aplicación de las normas sanitarias asociada al consumo y uso de alimentos, medicamentos, dispositivos médicos y otros productos objeto de vigilancia sanitaria.
       .col-lg-3.mb-3
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img05.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 Entidades territoriales
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.ms-4.mb-0 Entidades territoriales
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center
             .p-4
               h5 Entidades territoriales
               p.mb-0 Son entidades territoriales los departamentos, los distritos, los municipios y los territorios indígenas. La ley podrá darles el carácter de entidades territoriales a las regiones y provincias que se constituyan, en los términos de la Constitución y la ley.
@@ -61,67 +61,69 @@
       h2 1.1 Objetivos
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-12.order-md-1.order-2
+      .col-lg-7.col-md-6.col-12.order-md-1.order-2.mb-md-0.mb-4
         p #[strong Se trata de aquellas metas establecidas dentro del plan de Buenas Prácticas Ganaderas, con las cuales se favorece el cumplimiento de las mismas, en todos los predios interesados en cumplir la norma y ser competitivos a nivel nacional e internacional]. Es de suma importancia, para el gremio ganadero, que las entidades como el ICA y el INVIMA intervengan en los procesos en los cuales se encuentre la cadena primaria (consumo de carne bovina)
         p En la ganadería bovina se debe contar con una misión y visión marcadas, debido a que esto refleja la motivación y empeño del negocio y fija las metas en calidad del producto y bienestar común. Cabe resaltar que, en la implementación de BPG, los objetivos clave son:
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1
+      .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img06.png')
 
     .row.mb-5
       LineaTiempoE.color-primario
         .row(titulo="Trazar programas")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Trazar programas sanitarios y de inocuidad. 
         .row(titulo="Recopilar y organizar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Recopilar y organizar los registros para manejo administrativo.
         .row(titulo="Implementar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Implementar las buenas prácticas pecuarias en la alimentación y en el uso de los medicamentos.
         .row(titulo="Instaurar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Instaurar requisitos sanitarios en la propiedad. 
         .row(titulo="Implementar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Implementar registro de vehículos. 
         .row(titulo="Inspeccionar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Inspeccionar los insumos y medicamentos  
         .row(titulo="Efectuar")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Efectuar programa de saneamiento 
         .row(titulo="Cumplir")
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             p Cumplir con los requerimientos del almacenamiento de insumos
-      
+
+    separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2	Cronograma
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-6
+      .col-lg-7.col-10.mb-md-0.mb-4
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             p Los cronogramas son una herramienta útil que ayuda a planificar, organizadamente, el desarrollo de actividades requeridas y acordes a la línea de tiempo de un proyecto. Esta actividad es responsabilidad de la persona dueña o encargada de administrar la empresa y debe saber divulgar a tiempo y en buena forma a las demás personas implicadas en el proceso productivo.
-      .col-lg-5.col-6
-        figure
+      .col-lg-5.col-8.mb-md-0.mb-4
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img07.png')
 
     p.mb-5 Afiance su conocimiento, en lo relacionado con el cronograma del plan de implementación de BPB, visualizando con atención el recurso que a continuación se muestra. Recuerde llevar registro de los aspectos más relevantes, en su libreta personal de apuntes.
 
-    figure.mb-5
+    figure.mb-5(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
+
+        separador   
     #t_1_3.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
       h2 1.3	Lista de chequeo
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2.mt-5(data-aos="fade-right")
-        .cajon-b.color-acento-contenido.p-3.mb-5
+        .cajon-b.color-acento-botones.p-3.mb-5
           p #[strong La lista de chequeo es un formato impreso que se diligencia como medio de información de ciertos puntos o situaciones de control y es muy utilizada en auditorías de calidad]. La función principal es identificar si hay un mal procedimiento y es el primer paso para una auditoría y la manera de cómo analizarla y dar solución a este inconveniente.
           p Para realizar una lista de chequeo, se deben tener algunos parámetros y se requieren formular algunas preguntas orientadoras, como las que se mencionan a continuación:
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="fade-left")
+      .col-lg-4.col-md-6.col-10.order-md-2.order-1(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img08.png')
 
@@ -134,26 +136,23 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img10.png')})`}"
           )
-          .bloque-texto-g__texto.p-5
-            h4.ms-5.ps-5 ¡Importante!<br><br>
+          .bloque-texto-g__texto.p-5(data-aos="fade-left")
+            h4.ms-5.ps-5.text-center ¡Importante!
             p La lista de chequeo se adecua, de acuerdo a los procedimientos a observar y, con esa adecuación, se procede a la recolección de la información.
 
     p.mb-5 Según determinaciones del ICA, los ganaderos y entidades que busquen comercializar productos cárnicos, deben cumplir con un reglamento de cumplimiento a la normativa impuesta por protección animal y la dirección técnica de inocuidad e insumos veterinarios; en ella se utiliza una lista de chequeo muy similar a la planteada a continuación:
 
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
-        p <b>Tabla 1</b> Lista de chequeo para comercialización de productos cárnicos
+        h4.mb-0 <b>Tabla 1</b> Lista de chequeo para comercialización de productos cárnicos
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000; width: 12%").text-center <b>1</b>
@@ -195,13 +194,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>2</b>
@@ -223,13 +219,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>3</b>
@@ -266,13 +259,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>4</b>
@@ -344,13 +334,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>5</b>
@@ -397,13 +384,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>6</b>
@@ -450,13 +434,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>7</b>
@@ -513,13 +494,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Concepto
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center <b>8</b>
@@ -537,6 +515,7 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
 
+    separador
     #t_1_4.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
       h2 1.4	Parámetros BPG
 
@@ -553,54 +532,55 @@
     TabsA.color-acento-contenido.mb-5(data-aos="fade-right")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Diagnóstico de áreas de trabajo")
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-md-4.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img12.png')
-          .col-md-7
+          .col-md-7.mb-md-0.mb-4
             h5 Diagnóstico de áreas de trabajo
             p Para identificar los parámetros, dentro de un proceso, se realiza un diagnóstico del área a trabajar; además, se determinan todos los puntos donde se presenta mayor concentración de labor.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de parámetros")
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-md-4.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img13.png')
-          .col-md-7
+          .col-md-7.mb-md-0.mb-4
             h5 Análisis de parámetros
             p Una vez identificados los puntos donde hay mayor trabajo, se analizan los parámetros que se generan, permitiendo clasificar y medir las condiciones y, entonces, tener mayor control de la función que se está desarrollando. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Responsables")
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-md-4.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img14.png')
-          .col-md-7
+          .col-md-7.mb-md-0.mb-4
             h5 Responsables
             p El personal responsable de realizar el debido seguimiento son los operarios de una empresa u organización y el análisis que los asigna, lo hace profesional a cargo o la persona que conoce el proceso.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Evaluación de variables")
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-md-4.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img15.png')
-          .col-md-7
+          .col-md-7.mb-md-0.mb-4
             h5 Evaluación de variables
             p En ganadería de carne, las variables a evaluar se determinan de acuerdo al área de proceso; es así como se encuentran diferentes parámetros, los cuales se deben manejar independientemente, pero con un fin en particular: la obtención de un producto inocuo y de calidad para los consumidores. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Verificación de las entidades competentes")
         .row.justify-content-center.align-items-center
-          .col-md-6
+          .col-md-6.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img16.svg')
-          .col-md-6
+          .col-md-6.mb-md-0.mb-4
             h5 Verificación de las entidades competentes
             p Generalmente, la revisión la efectúan los administradores de la finca o predio en proceso de certificación y, luego, son verificados por las entidades como el ICA para, posteriormente, ser comercializados y direccionados a su consumidor final.
 
+    separador
     #t_1_5.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
       h2 1.5	Metodología BPG
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-12.order-md-1.order-2
+      .col-lg-7.col-md-6.col-12.order-md-1.order-2.mb-md-0.mb-4
         p Se trata de métodos usados para alcanzar objetivos, siendo muy similares a los utilizados en investigaciones científicas; sirven para organizar la estructura de una empresa o proyecto, debido a que generan instrumentos para valorar los tiempos y costos de la producción. Las personas encargadas son, generalmente, los ganaderos propietarios de fincas o las personas encargadas de su administración. 
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           p En los predios que se quieran certificar en BPG por parte del ICA, tales metodologías se aplican en todo el proceso (proceso completo) de la producción de carne. 
-      .col-lg-5.col-md-6.col-11.order-md-2.order-1
+      .col-lg-5.col-md-6.col-11.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img17.png')
 
@@ -644,36 +624,39 @@
     .row.justify-content-center.mb-5
       .col-md-10.p-3.BG02
         .row.align-items-center.justify-content-center
-          .col-md-2
-            figure
+          .col-md-2.col-6
+            figure.img03
               img(src='@/assets/curso/tema1/img23.svg')
           .col-md-1
-            h4 ¡Atención!
+            h4.text-center ¡Atención!
           .col-md-8.ps-5
             p La ganadería colombiana está en constante evolución por eso constantemente las normas y legislaciones están en proceso de actualización para ser competitivos comercialmente con otros países, esta es la ventana comercial que tiene todos los productores agropecuarios a nivel mundial.
 
+    separador
     #t_1_6.titulo-segundo.color-acento-contenido.p-0.mb-5(data-aos="fade-right")
       h2 1.6	Estrategias de evaluación de la implementación BPG
 
     p.mb-5 La estrategia de evaluación en BPG es una herramienta que permite realizar un monitoreo constante de la producción, la cual debe ser bien implementada y tener participación directa con un recurso de mano de obra y recursos económicos. Esta facilita el propósito, la estrategia y la cobertura de las acciones implementadas.
 
     .row.justify-content-center.mb-5
-      .col-md-10.mb-5
+      .col-md-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img24.png')})`}"
           )
           .bloque-texto-g__texto.p-5(data-aos="fade-left")
             p El propósito principal de la aplicación de la estrategia de evaluación es alcanzar los indicadores sugeridos por los entes de control y alcanzar las metas propuestas que benefician tanto al productor como al consumidor y, en general, generar un buen servicio en óptimas condiciones.
+      
+    .row.justify-content-center.mb-4  
       .col-md-8
         TabsC.color-acento-contenido
-          .py-2.py-md-3(titulo="Criterios de la evaluación")
-            .row.justify-content-center.BG03.p-4
-              .col-md-10
+          .py-3(titulo="<b>Criterios de la evaluación</b>")
+            .row.justify-content-center
+              .col-12.BG03.p-5
                 p Los criterios fundamentales de evaluación, utilizados en cualquier hato ganadero, deben llevar una lista de chequeo que será previamente revisada, evaluada y diligenciada para la obtención del certificado de las BPG.
-          .py-2.py-md-3(titulo="Exigencias")
-            .row.justify-content-center.BG03.p-4
-              .col-md-10
+          .py-3(titulo="<b>Exigencias</b>")
+            .row.justify-content-center
+              .col-12.BG03.p-5
                 p La lista de chequeo para la evaluación, debe cumplir las normas exigidas en la normatividad del ente de control y se adapta a la producción, abarcando todas las áreas del proceso de producción de carne.
       
     p.mb-5 Analice la siguiente tabla, en la cual se detallan aspectos generales de suma importancia para la aplicación de las estrategias de evaluación en la implementación de BPG:
@@ -685,13 +668,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
@@ -732,13 +712,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
@@ -760,14 +737,11 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
-              td(style="background-color: #FFF0D8; color: #000").text-center No     
+              td(style="background-color: #FFF0D8; color: #000").text-center No    
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>BIOSEGURIDAD</b>
@@ -802,13 +776,10 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
               td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
@@ -879,14 +850,11 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
-              td(style="background-color: #FFF0D8; color: #000").text-center No     
+              td(style="background-color: #FFF0D8; color: #000").text-center No    
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BUENAS PRÁCTICAS PARA LA ALIMENTACIÓN ANIMAL-BPAA</b>
@@ -926,14 +894,11 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
-              td(style="background-color: #FFF0D8; color: #000").text-center No    
+              td(style="background-color: #FFF0D8; color: #000").text-center No  
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE SANEAMIENTO</b>
@@ -973,14 +938,11 @@
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
-              td(style="background-color: #FFF0D8; color: #000").text-center No      
+              td(style="background-color: #FFF0D8; color: #000").text-center No     
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE BIENESTAR ANIMAL</b>
@@ -991,18 +953,16 @@
         td.ps-4(style="background-color: #F8F2E8; color: #000") Posee instalaciones adecuadas para los animales.
         td(style="background-color: #FFE9C6; color: #000") 
         td(style="background-color: #FFEED2; color: #000") 
+    
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
         th(style="background-color: #F8F2E8; color: #000; width: 68%").text-center Criterio
-        th.p-0(style="background-color: #FFCE7E; color: #000").text-end Cumple
+        th.p-0(colspan="2" style="background-color: #FFCE7E; color: #000").text-center Cumple
           table
             tr
               td(style="background-color: #FFEBCB; color: #000").text-center Sí
-        th.p-0(style="background-color: #FFCE7E; color: #FFCE7E") Cumple
-          table
-            tr
-              td(style="background-color: #FFF0D8; color: #000").text-center No     
+              td(style="background-color: #FFF0D8; color: #000").text-center No      
       tr  
         td(style="background-color: #E5F3E1; color: #000").text-center 
         td.ps-4(style="background-color: #FBF7F1; color: #000") <b>REQUISITOS DE PERSONAL</b>
@@ -1029,26 +989,24 @@
         td(style="background-color: #FFF5E5; color: #000") 
         td(style="background-color: #FFFAF2; color: #000") 
 
+    separador
     #t_1_7.titulo-segundo.color-acento-contenido.p-0.mb-5(data-aos="fade-right")
       h2 1.7	Documentación y Metas BPG
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5.col-md-6.col-11
+      .col-lg-5.col-md-6.col-11.mb-md-0.mb-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img25.png')
-      .col-lg-7.col-md-6.col-12
+      .col-lg-7.col-md-6.col-12.mb-md-0.mb-4
         p La documentación es un proceso que consiste en recopilar datos e identificar información verídica de un tema, para la obtención de un nuevo conocimiento. Su principal función es garantizar la conservación de datos, además de intercambiar información con un equipo de trabajo, a fin de crear un documento sólido que permita reconocer, en una empresa u organización, la existencia de errores, prácticas, registros, entre otras fuentes.
         .cajon.color-primario.p-4(data-aos="fade-left")
           p En el año 2020 se creó la resolución 068167 por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG, en la producción de carne de bovinos y/o bufalinos.
     
-    .row.mb-4(data-aos="fade-right")
-      .col-md-2.col-4
-        .row.BG04.align-items-center
-          .col-6.ps-5.pt-3
-            h4 Metas
-      .col-md-2
-        figure
-          img.img01(src='@/assets/curso/tema1/img26.svg')
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BG04.p-2
+        .h4.ms-3.mb-0.me-5 Metas
+      .col-auto
+        img.img01(src='@/assets/curso/tema1/img26.svg')
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-9.col-md-8.col-12.order-md-1.order-2
@@ -1064,20 +1022,22 @@
       .col-md-8.col-11.p-3.mb-5.BG05
         p.text-center <b>Figura 1</b> Metas de BPG de carne
       .col-md-8.col-11.p-3.mb-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img28.svg')
       .col-md-10.col-12.BG06.p-2
         .row.justify-content-center.align-items-center
           .col-md-2.col-4
-            figure
+            figure.img03(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img29.svg')
-          .col-md-7.col-5
-            h4 Plan de Implementación de BPG
-            p Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
-          .col-md-2.col-3
-            a.boton.color-acento-contenido(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
-              span Descargar
-              i.fas.fa-file-download
+          .col-md-7.col-8
+            .row
+              .col-md-8
+                h4 Plan de Implementación de BPG
+                p Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
+              .col-sm-auto(data-aos="fade-left")
+                a.boton.color-acento-contenido(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
 
 
 

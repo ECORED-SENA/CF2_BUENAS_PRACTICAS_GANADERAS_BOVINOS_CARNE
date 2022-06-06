@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Implementación de BPG en bovinos de carne',
     descripcionCurso:
       'Con el estudio de este componente formativo, el aprendiz podrá asimilar conceptos y prácticas para el desempeño de plan de implementación de BPG. Se afianzará en la generación de objetivos, cronograma, listas de chequeo, parámetros, metodología, estrategias de evaluación, documentación y procedimientos generales del mismo.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {

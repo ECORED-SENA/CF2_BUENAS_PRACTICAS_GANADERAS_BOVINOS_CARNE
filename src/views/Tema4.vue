@@ -17,10 +17,10 @@
             .bloque-texto-b.color-primario.p-5
               .bloque-texto-b__texto
                 p <b>La comunicación y la gestión de personal</b>, aunque son dos estrategias o procesos independientes, tienen estrecha relación en el macroproceso de la producción ganadera. La comunicación por su parte, permite el desarrollo y la interacción entre grupos y entidades en el sector ganadero; su objetivo principal es mantener una articulación constante en temas de vacunación, normativas, producción y manejo de las BPG.
-          .col-6.BG04.p-3.ms-5(data-aos="fade-left")
-            h5.text-center Conozca qué es cada una:
+          .col-auto.BG04.p-3.ms-5(data-aos="fade-left")
+            h5.text-center.mb-0 Conozca qué es cada una:
       .col-md-10.col-12.mb-5
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.item-right.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img02.png')})`}"
           )
@@ -28,7 +28,7 @@
             h5 La comunicación<br><br>
             p.mb-0 La comunicación es la estrategia que abre paso a una comunidad productiva y de gran impacto, al punto que la finca o empresa podría llegar a ser, incluso, reconocida a nivel nacional e internacional.
       .col-md-10.col-12.mb-5
-        .bloque-texto-g.color-secundario.item-right.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img03.png')})`}"
           )
