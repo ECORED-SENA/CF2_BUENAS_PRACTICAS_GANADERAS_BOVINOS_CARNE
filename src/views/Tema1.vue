@@ -28,7 +28,7 @@
     p.mb-5 En Colombia, existen entidades como el ICA, Invima o el Ministerio de Salud, entre otras, que son las encargadas de todos los procesos ganaderos; estas entidades buscan cuidar, fortalecer y controlar las BPG, verificando siempre el beneficio del consumidor. Ampliemos la información sobre algunas de ellas.
 
     .row.justify-content-center.mb-5.mb-md-5(data-aos="fade-right")
-      .col-lg-3.mb-3
+      .col-lg-3.col-md-8.mb-lg-0.mb-3
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img03.png')
           .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
@@ -37,7 +37,7 @@
             .p-4
               h5 ICA
               p.mb-0  El Instituto Colombiano Agropecuario, ICA, es una entidad Pública del Orden Nacional con personería jurídica, autonomía administrativa y patrimonio independiente, perteneciente al Sistema Nacional de Ciencia y Tecnología, adscrita al Ministerio de Agricultura y Desarrollo Rural.
-      .col-lg-3.mb-3
+      .col-lg-3.col-md-8.mb-lg-0.mb-3
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img04.png')
@@ -47,8 +47,8 @@
             .p-4
               h5 INVIMA
               p.mb-0 Instituto Nacional de Vigilancia de Medicamentos y Alimentos, es una entidad de vigilancia y control de carácter técnico científico, que trabaja para la protección de la salud individual y colectiva de los colombianos, mediante la aplicación de las normas sanitarias asociada al consumo y uso de alimentos, medicamentos, dispositivos médicos y otros productos objeto de vigilancia sanitaria.
-      .col-lg-3.mb-3
-        .tarjeta.tarjeta-foto-hover
+      .col-lg-3.col-md-8.mb-lg-0.mb-3
+        .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img05.png')
           .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
             h4.ms-4.mb-0 Entidades territoriales
@@ -57,6 +57,7 @@
               h5 Entidades territoriales
               p.mb-0 Son entidades territoriales los departamentos, los distritos, los municipios y los territorios indígenas. La ley podrá darles el carácter de entidades territoriales a las regiones y provincias que se constituyan, en los términos de la Constitución y la ley.
 
+    separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Objetivos
 
@@ -114,7 +115,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-        separador   
+    separador   
     #t_1_3.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
       h2 1.3	Lista de chequeo
 
@@ -137,14 +138,16 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img10.png')})`}"
           )
           .bloque-texto-g__texto.p-5(data-aos="fade-left")
-            h4.ms-5.ps-5.text-center ¡Importante!
+            h4(style="text-align: center") ¡Importante! <br><br>
             p La lista de chequeo se adecua, de acuerdo a los procedimientos a observar y, con esa adecuación, se procede a la recolección de la información.
 
     p.mb-5 Según determinaciones del ICA, los ganaderos y entidades que busquen comercializar productos cárnicos, deben cumplir con un reglamento de cumplimiento a la normativa impuesta por protección animal y la dirección técnica de inocuidad e insumos veterinarios; en ella se utiliza una lista de chequeo muy similar a la planteada a continuación:
 
-    .tabla-b.color-acento-contenido.mb-0
-      .tabla-b__header
-        h4.mb-0 <b>Tabla 1</b> Lista de chequeo para comercialización de productos cárnicos
+    .tabla-a.color-acento-botones.mb-0
+      table
+        thead
+          tr
+            th(style="font-size: 18px") #[strong Tabla 1] Lista de chequeo para comercialización de productos cárnicos
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
@@ -650,20 +653,20 @@
     .row.justify-content-center.mb-4  
       .col-md-8
         TabsC.color-acento-contenido
-          .py-3(titulo="<b>Criterios de la evaluación</b>")
-            .row.justify-content-center
-              .col-12.BG03.p-5
-                p Los criterios fundamentales de evaluación, utilizados en cualquier hato ganadero, deben llevar una lista de chequeo que será previamente revisada, evaluada y diligenciada para la obtención del certificado de las BPG.
-          .py-3(titulo="<b>Exigencias</b>")
-            .row.justify-content-center
-              .col-12.BG03.p-5
-                p La lista de chequeo para la evaluación, debe cumplir las normas exigidas en la normatividad del ente de control y se adapta a la producción, abarcando todas las áreas del proceso de producción de carne.
+          .row.justify-content-center.py-3(titulo="<b>Criterios de la evaluación</b>")
+            .col-12.BG03.p-5
+              p Los criterios fundamentales de evaluación, utilizados en cualquier hato ganadero, deben llevar una lista de chequeo que será previamente revisada, evaluada y diligenciada para la obtención del certificado de las BPG.
+          .row.justify-content-center.py-3(titulo="<b>Exigencias</b>")
+            .col-12.BG03.p-5
+              p La lista de chequeo para la evaluación, debe cumplir las normas exigidas en la normatividad del ente de control y se adapta a la producción, abarcando todas las áreas del proceso de producción de carne.
       
     p.mb-5 Analice la siguiente tabla, en la cual se detallan aspectos generales de suma importancia para la aplicación de las estrategias de evaluación en la implementación de BPG:
 
-    .tabla-b.color-acento-contenido.mb-0
-      .tabla-b__header
-        p <b>Tabla 2</b> Lista de chequeo de estrategias de evaluación
+    .tabla-a.color-acento-botones.mb-0
+      table
+        thead
+          tr
+            th(style="font-size: 18px") <b>Tabla 2</b> Lista de chequeo de estrategias de evaluación
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
@@ -1009,12 +1012,12 @@
         img.img01(src='@/assets/curso/tema1/img26.svg')
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-9.col-md-8.col-12.order-md-1.order-2
+      .col-lg-9.col-md-8.col-12.order-md-1.order-2.mb-lg-0.mb-4
         p En cuanto a las metas BPG, estas son un conjunto de prácticas que conllevan un resultado deseado en una organización. Los resultados se han de orientar en el corto, mediano y largo plazo y serán logrados a través de acciones concretas que se formularán, simultáneamente, con las metas.
         .cajon.color-acento-contenido.p-4.mb-4
           p El alcance oportuno de las metas, facilita el aseguramiento de la inocuidad y el posicionamiento de la finca en el mercado nacional e internacional, trazando un panorama productivo y competitivo.
         p Las metas de BPG de carne son:
-      .col-lg-3.col-md-4.col-8.order-md-2.order-1
+      .col-lg-3.col-md-4.col-6.order-md-2.order-1.mb-lg-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img27.png')
 
@@ -1026,22 +1029,18 @@
           img(src='@/assets/curso/tema1/img28.svg')
       .col-md-10.col-12.BG06.p-2
         .row.justify-content-center.align-items-center
-          .col-md-2.col-4
+          .col-md-2.col-3
             figure.img03(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img29.svg')
-          .col-md-7.col-8
-            .row
-              .col-md-8
+          .col-md-10.col-9
+            .row.align-items-center
+              .col-md-9
                 h4 Plan de Implementación de BPG
                 p Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
               .col-sm-auto(data-aos="fade-left")
                 a.boton.color-acento-contenido(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
-
-
-
-
 
 </template>
 

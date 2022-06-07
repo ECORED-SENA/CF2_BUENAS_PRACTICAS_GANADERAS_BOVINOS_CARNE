@@ -4,9 +4,9 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-md-5.py-5.px-3.banner-principal__info
+      .col-lg-5.py-5.px-3.banner-principal__info
         .banner-principal__componente
-          h1.mb-0(style="font-size: 2.63em" v-html="globalData.componenteFormativo")
+          h1.mb-0(style="font-size: 32px" v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")

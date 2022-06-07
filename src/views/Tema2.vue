@@ -9,17 +9,17 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-md-4.col-10.mb-5.mb-md-0.mb-4
-        figure(data-aos="fade-right")
+        figure.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img01.png')
       .col-md-7.col-11.mb-md-0.mb-4
         p.p-3 Un procedimiento es un conjunto de actividades detalladas que se describen secuencialmente y deben cumplir con unas condiciones establecidas por las normas: duración, documentación, entre otras. 
-        .bloque-texto-b.color-primario.p-3(data-aos="fade-left")
+        .bloque-texto-b.color-acento-botones.p-3(data-aos="fade-left")
           .bloque-texto-b__texto
             p <b>Para el caso de BPG, la norma que regula tales procedimientos es la resolución 068167 de 2020, por la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de carne de bovinos y/o bufalinos.</b>
       .col-md-10.mb-md-0.mb-4
         .cajon.color-acento-contenido.p-2
           .row.align-items-center.justify-content-center
-            .col-md-2.col-6
+            .col-md-2.col-6.mb-4
               figure.img03(data-aos="fade-right")
                 img(src='@/assets/curso/tema2/img02.svg')
             .col-9(data-aos="fade-left")
@@ -27,14 +27,14 @@
     p.mb-5 Conozca los aspectos generales relacionados con procedimientos, procesos y registros, que se enuncian a continuación. Recuerde llevar nota en su libreta personal de apuntes:
 
     .row.justify-content-center.mb-5.BG01(data-aos="fade-right")
-      .col-xl-10.col-lg-12.col-md-10.col-11.py-5
+      .col-xl-11.col-md-12.col-11.py-5
         SlyderA(tipo="b")
           .row.ms-1
             .col-lg-6
               .row  
                 .col-md-12.p-xl-3.p-lg-2.p-3.BG07
                   h5.ps-5.mb-0 Procedimientos
-                .col-12.p-xl-4.p-lg-2.p-3.BG08
+                .col-12.p-xl-4.p-3.BG08
                   p.mb-0 Sirven para detallar un proceso y están conformados por actividades cronológicas del personal encargado, regidas por normas. Los procedimientos de las BPG están encaminados a la certificación por buen manejo de la crianza, explotación y exportación de carne bovina para consumo humano. La normativa por cumplir la reglamenta el ICA.
             .col-lg-6.ps-0
               figure.img04
@@ -44,7 +44,7 @@
               .row  
                 .col-md-12.p-xl-3.p-lg-2.p-3.BG07
                   h5.ps-5.mb-0 Procesos
-                .col-12.p-xl-4.p-lg-2.p-3.BG08
+                .col-12.p-xl-4.p-3.BG08
                   p.mb-0 Cadena de actividades realizadas para alcanzar una meta o propósito. Vinculan al personal para darles tareas, de acuerdo a su profesión o experiencia, lo cual permite un control y ordenar todas las secciones o departamentos de la empresa ganadera. Los procesos mejoran las actividades administrativas y productivas de los predios y permiten que la ganadería se establezca como una empresa competitiva y eficaz. 
             .col-lg-6.ps-0
               figure.img04
@@ -54,7 +54,7 @@
               .row  
                 .col-md-12.p-xl-3.p-lg-2.p-3.BG07
                   h5.ps-5.mb-0 Entes de control
-                .col-12.p-xl-4.p-lg-2.p-3.BG08
+                .col-12.p-xl-4.p-3.BG08
                   p.mb-0 Existen entes de control que se encargan de verificar los estándares de la producción y velar por el funcionamiento y calidad del producto final. El  ICA se encarga de prevenir, vigilar y controlar los riesgos sanitarios, biológicos y químicos para las especies animales y vegetales. FEDEGAN, organiza el gremio ganadero a nivel nacional.
             .col-lg-6.ps-0
               figure.img04
@@ -64,7 +64,7 @@
               .row  
                 .col-md-12.p-xl-3.p-lg-2.p-3.BG07
                   h5.ps-5.mb-0 Registros BPG
-                .col-12.p-xl-4.p-lg-2.p-3.BG08
+                .col-12.p-xl-4.p-3.BG08
                   p.mb-0 Es documentación que consigna la actividad específica y propia de una empresa o establecimiento, conserva información y su trazabilidad en archivos. Para llevar adecuadamente la documentación, deben existir unos parámetros claros para la empresa. Algunos parámetros son:
             .col-lg-6.BG13.p-xl-4.p-lg-2.p-4.px-5
               ul.lista-ul
