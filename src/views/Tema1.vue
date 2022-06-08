@@ -28,7 +28,7 @@
     p.mb-5 En Colombia, existen entidades como el ICA, Invima o el Ministerio de Salud, entre otras, que son las encargadas de todos los procesos ganaderos; estas entidades buscan cuidar, fortalecer y controlar las BPG, verificando siempre el beneficio del consumidor. Ampliemos la información sobre algunas de ellas.
 
     .row.justify-content-center.mb-5.mb-md-5(data-aos="fade-right")
-      .col-lg-3.col-md-8.mb-lg-0.mb-3
+      .col-xxl-3.col-lg-4.col-md-8.mb-lg-0.mb-3
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img03.png')
           .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
@@ -37,7 +37,7 @@
             .p-4
               h5 ICA
               p.mb-0  El Instituto Colombiano Agropecuario, ICA, es una entidad Pública del Orden Nacional con personería jurídica, autonomía administrativa y patrimonio independiente, perteneciente al Sistema Nacional de Ciencia y Tecnología, adscrita al Ministerio de Agricultura y Desarrollo Rural.
-      .col-lg-3.col-md-8.mb-lg-0.mb-3
+      .col-xxl-3.col-lg-4.col-md-8.mb-lg-0.mb-3
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img04.png')
@@ -47,7 +47,7 @@
             .p-4
               h5 INVIMA
               p.mb-0 Instituto Nacional de Vigilancia de Medicamentos y Alimentos, es una entidad de vigilancia y control de carácter técnico científico, que trabaja para la protección de la salud individual y colectiva de los colombianos, mediante la aplicación de las normas sanitarias asociada al consumo y uso de alimentos, medicamentos, dispositivos médicos y otros productos objeto de vigilancia sanitaria.
-      .col-lg-3.col-md-8.mb-lg-0.mb-3
+      .col-xxl-3.col-lg-4.col-md-8.mb-lg-0.mb-3
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img05.png')
           .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
@@ -147,7 +147,7 @@
       table
         thead
           tr
-            th(style="font-size: 18px") #[strong Tabla 1] Lista de chequeo para comercialización de productos cárnicos
+            td(style="font-size: 18px").text-center #[strong Tabla 1] Lista de chequeo para comercialización de productos cárnicos
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
@@ -666,7 +666,7 @@
       table
         thead
           tr
-            th(style="font-size: 18px") <b>Tabla 2</b> Lista de chequeo de estrategias de evaluación
+            td(style="font-size: 18px").text-center #[strong Tabla 2] Lista de chequeo de estrategias de evaluación
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #DDEFD7; color: #000; width: 12%").text-center Número
@@ -1030,14 +1030,14 @@
       .col-md-10.col-12.BG06.p-2
         .row.justify-content-center.align-items-center
           .col-md-2.col-3
-            figure.img03(data-aos="fade-right")
+            figure.img03.m-0(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img29.svg')
           .col-md-10.col-9
             .row.align-items-center
               .col-md-9
-                h4 Plan de Implementación de BPG
-                p Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
-              .col-sm-auto(data-aos="fade-left")
+                h4.mb-2 Plan de Implementación de BPG
+                p.mb-0 Amplie su conocimiento, en lo relacionado con el Plan de Implementación de BPG, explorando el enlace que aquí se propone:
+              .col-sm-auto.mb-md-0.mb-4(data-aos="fade-left")
                 a.boton.color-acento-contenido(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
                   span Descargar
                   i.fas.fa-file-download

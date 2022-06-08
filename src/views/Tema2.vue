@@ -30,44 +30,44 @@
       .col-xl-11.col-md-12.col-11.py-5
         SlyderA(tipo="b")
           .row.ms-1
-            .col-lg-6
-              .row  
-                .col-md-12.p-xl-3.p-lg-2.p-3.BG07
+            .col-lg-6.BG08
+              .row
+                .col-12.BG07.p-3
                   h5.ps-5.mb-0 Procedimientos
-                .col-12.p-xl-4.p-3.BG08
+                .col-12.p-xl-4.p-3
                   p.mb-0 Sirven para detallar un proceso y están conformados por actividades cronológicas del personal encargado, regidas por normas. Los procedimientos de las BPG están encaminados a la certificación por buen manejo de la crianza, explotación y exportación de carne bovina para consumo humano. La normativa por cumplir la reglamenta el ICA.
             .col-lg-6.ps-0
-              figure.img04
+              figure
                 img(src='@/assets/curso/tema2/img03.png')
           .row.ms-1 
-            .col-lg-6
-              .row  
-                .col-md-12.p-xl-3.p-lg-2.p-3.BG07
+            .col-lg-6.BG08
+              .row 
+                .col-12.BG07.p-3
                   h5.ps-5.mb-0 Procesos
-                .col-12.p-xl-4.p-3.BG08
+                .col-12.p-xl-4.p-3
                   p.mb-0 Cadena de actividades realizadas para alcanzar una meta o propósito. Vinculan al personal para darles tareas, de acuerdo a su profesión o experiencia, lo cual permite un control y ordenar todas las secciones o departamentos de la empresa ganadera. Los procesos mejoran las actividades administrativas y productivas de los predios y permiten que la ganadería se establezca como una empresa competitiva y eficaz. 
             .col-lg-6.ps-0
-              figure.img04
+              figure
                 img(src='@/assets/curso/tema2/img04.png')
           .row.ms-1 
-            .col-lg-6
-              .row  
-                .col-md-12.p-xl-3.p-lg-2.p-3.BG07
+            .col-lg-6.BG08
+              .row 
+                .col-12.BG07.p-3
                   h5.ps-5.mb-0 Entes de control
-                .col-12.p-xl-4.p-3.BG08
+                .col-12.p-xl-4.p-3
                   p.mb-0 Existen entes de control que se encargan de verificar los estándares de la producción y velar por el funcionamiento y calidad del producto final. El  ICA se encarga de prevenir, vigilar y controlar los riesgos sanitarios, biológicos y químicos para las especies animales y vegetales. FEDEGAN, organiza el gremio ganadero a nivel nacional.
             .col-lg-6.ps-0
-              figure.img04
+              figure
                 img(src='@/assets/curso/tema2/img06.svg')
           .row.ms-1
-            .col-lg-6
-              .row  
-                .col-md-12.p-xl-3.p-lg-2.p-3.BG07
+            .col-lg-6.BG08
+              .row 
+                .col-12.BG07.p-3
                   h5.ps-5.mb-0 Registros BPG
-                .col-12.p-xl-4.p-3.BG08
+                .col-12.p-xl-4.p-3
                   p.mb-0 Es documentación que consigna la actividad específica y propia de una empresa o establecimiento, conserva información y su trazabilidad en archivos. Para llevar adecuadamente la documentación, deben existir unos parámetros claros para la empresa. Algunos parámetros son:
-            .col-lg-6.BG13.p-xl-4.p-lg-2.p-4.px-5
-              ul.lista-ul
+            .col-lg-6.BG13.p-xl-4.p-lg-2.p-3.px-5
+              ul.lista-ul.mb-0
                 li 
                   i.fas.fa-paper-plane.fa-fw
                   | Logo de la empresa.
@@ -91,14 +91,14 @@
                   | Fecha de aprobación.
                 li 
                   i.fas.fa-paper-plane.fa-fw.mb-0
-                  p.mb-0 Aspectos a registrar (actividad).
+                  | Aspectos a registrar (actividad).
 
           .row.ms-1 
-            .col-lg-6
-              .row  
-                .col-md-12.p-xl-3.p-lg-2.p-3.BG07
+            .col-lg-6.BG08
+              .row 
+                .col-12.BG07.p-3
                   h5.ps-5.mb-0 Manejo de los registros
-                .col-12.p-xl-4.p-lg-2.p-3.BG08
+                .col-12.p-xl-4.p-lg-2.p-3
                   p.mb-0 El manejo acertado de registros es una condición indispensable que ayuda a que la empresa ganadera tenga, entre otras, soporte financiero y rentable, además de crear un archivo que permite visualizar los avances de las labores productivas, económicas, comerciales, etc. Algunos de estos registros son:
             .col-lg-6.BG13.p-xl-4.p-lg-2.p-4.px-5
               ul.lista-ul
