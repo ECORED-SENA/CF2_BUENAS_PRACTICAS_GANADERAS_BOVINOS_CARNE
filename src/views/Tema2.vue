@@ -113,7 +113,7 @@
                   | Registro de temperatura de biológicos.
                 li 
                   i.fas.fa-paper-plane.fa-fw
-                  | Registro de tratamiento veterinarios.
+                  | Registro de tratamientos veterinarios.
                 li 
                   i.fas.fa-paper-plane.fa-fw
                   | Registro de uso de medicamentos por animal.
@@ -129,7 +129,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[strong Enlace web]. Afiance su saber sobre procedimientos, procesos y registros, explorando el enlace que aquí se propone:
+            p #[strong Enlace web]. Afiance su saber sobre procedimientos, procesos y registros, explorando el enlace que aquí se propone.
 
 
 

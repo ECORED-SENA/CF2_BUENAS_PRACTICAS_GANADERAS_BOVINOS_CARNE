@@ -55,7 +55,7 @@
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center
             .p-4
               h5 Entidades territoriales
-              p.mb-0 Son entidades territoriales los departamentos, los distritos, los municipios y los territorios indígenas. La ley podrá darles el carácter de entidades territoriales a las regiones y provincias que se constituyan, en los términos de la Constitución y la ley.
+              p.mb-0 Son entidades territoriales los departamentos, los distritos, los municipios y los territorios indígenas. La ley podrá darles el carácter de entidades territoriales a las regiones y provincias que se constituyan, en los términos de la constitución y la ley.
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -63,7 +63,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-12.order-md-1.order-2.mb-md-0.mb-4
-        p #[strong Se trata de aquellas metas establecidas dentro del plan de Buenas Prácticas Ganaderas, con las cuales se favorece el cumplimiento de las mismas, en todos los predios interesados en cumplir la norma y ser competitivos a nivel nacional e internacional]. Es de suma importancia, para el gremio ganadero, que las entidades como el ICA y el INVIMA intervengan en los procesos en los cuales se encuentre la cadena primaria (consumo de carne bovina)
+        p #[strong Se trata de aquellas metas establecidas dentro del plan de Buenas Prácticas Ganaderas, con las cuales se favorece el cumplimiento de las mismas, en todos los predios interesados en cumplir la norma y ser competitivos a nivel nacional e internacional]. Es de suma importancia, para el gremio ganadero, que las entidades como el ICA y el INVIMA intervengan en los procesos en los cuales se encuentre la cadena primaria (consumo de carne bovina).
         p En la ganadería bovina se debe contar con una misión y visión marcadas, debido a que esto refleja la motivación y empeño del negocio y fija las metas en calidad del producto y bienestar común. Cabe resaltar que, en la implementación de BPG, los objetivos clave son:
       .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="fade-left")
@@ -88,13 +88,13 @@
             p Implementar registro de vehículos. 
         .row(titulo="Inspeccionar")
           .col-12.mb-4.mb-lg-0(data-aos="fade-left")
-            p Inspeccionar los insumos y medicamentos  
+            p Inspeccionar los insumos y medicamentos.  
         .row(titulo="Efectuar")
           .col-12.mb-4.mb-lg-0(data-aos="fade-left")
-            p Efectuar programa de saneamiento 
+            p Efectuar programa de saneamiento.
         .row(titulo="Cumplir")
           .col-12.mb-4.mb-lg-0(data-aos="fade-left")
-            p Cumplir con los requerimientos del almacenamiento de insumos
+            p Cumplir con los requerimientos del almacenamiento de insumos.
 
     separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -113,7 +113,7 @@
 
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WeKADALI0OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador   
     #t_1_3.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
@@ -556,7 +556,7 @@
               img(src='@/assets/curso/tema1/img14.png')
           .col-md-7.mb-md-0.mb-4
             h5 Responsables
-            p El personal responsable de realizar el debido seguimiento son los operarios de una empresa u organización y el análisis que los asigna, lo hace profesional a cargo o la persona que conoce el proceso.
+            p El personal responsable de realizar el debido seguimiento son los operarios de una empresa u organización y el análisis que los asigna, lo hace el profesional a cargo o la persona que conoce el proceso.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Evaluación de variables")
         .row.justify-content-center.align-items-center
           .col-md-4.mb-md-0.mb-4
@@ -572,7 +572,7 @@
               img(src='@/assets/curso/tema1/img16.svg')
           .col-md-6.mb-md-0.mb-4
             h5 Verificación de las entidades competentes
-            p Generalmente, la revisión la efectúan los administradores de la finca o predio en proceso de certificación y, luego, son verificados por las entidades como el ICA para, posteriormente, ser comercializados y direccionados a su consumidor final.
+            p Generalmente, la revisión la efectúan los administradores de la finca o predio en proceso de certificación y, luego, son verificados por las entidades como el #[strong ICA] para, posteriormente, ser comercializados y direccionados a su consumidor final.
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
@@ -601,7 +601,7 @@
                 img(src='@/assets/curso/tema1/img19.png')
             .col-md-12
               h5 1. Diagnóstico
-              p Es la recolección de datos, este fase es la estructura de las otras fases (planificación, ejecución, evaluación). Da una perspectiva de cómo se encuentra la empresa ganadera. El diagnóstico puede ser observado desde la documentación o mediante visitas al área o predio, por método observatorio de cada proceso, con una herramienta documental (DOFA).
+              p Es la recolección de datos, esta fase es la estructura de las otras fases (planificación, ejecución, evaluación). Da una perspectiva de cómo se encuentra la empresa ganadera. El diagnóstico puede ser observado desde la documentación o mediante visitas al área o predio, por método observatorio de cada proceso, con una herramienta documental (DOFA).
           .row
             .col-md-12.mb-5
               figure
@@ -994,7 +994,7 @@
 
     separador
     #t_1_7.titulo-segundo.color-acento-contenido.p-0.mb-5(data-aos="fade-right")
-      h2 1.7	Documentación y Metas BPG
+      h2 1.7	Documentación y metas BPG
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.col-md-6.col-11.mb-md-0.mb-4
@@ -1003,7 +1003,7 @@
       .col-lg-7.col-md-6.col-12.mb-md-0.mb-4
         p La documentación es un proceso que consiste en recopilar datos e identificar información verídica de un tema, para la obtención de un nuevo conocimiento. Su principal función es garantizar la conservación de datos, además de intercambiar información con un equipo de trabajo, a fin de crear un documento sólido que permita reconocer, en una empresa u organización, la existencia de errores, prácticas, registros, entre otras fuentes.
         .cajon.color-primario.p-4(data-aos="fade-left")
-          p En el año 2020 se creó la resolución 068167 por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG, en la producción de carne de bovinos y/o bufalinos.
+          p En el año 2020 se creó la resolución #[strong 068167] por medio de la cual se establecen los requisitos para obtener la certificación en #[strong Buenas Prácticas Ganaderas BPG], en la producción de carne de bovinos y/o bufalinos.
     
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BG04.p-2
