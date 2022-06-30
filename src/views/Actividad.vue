@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 La verdad de mi conocimiento
-        p.mb-4 Reforzar conceptos y elementos prácticos de la implementación de las BPG en bovinos de carne.
+        p.mb-4 Reforzar conceptos y elementos prácticos de la implementación de BPG en bovinos de carne.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

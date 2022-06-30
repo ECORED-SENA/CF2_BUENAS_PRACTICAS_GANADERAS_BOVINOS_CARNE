@@ -134,27 +134,37 @@ export default {
   },
   complementario: [
     {
-      texto: 'Plan de Implementación',
+      tema: 'Plan de Implementación',
+      referencia:
+        'Producción agropecuaria y agroindustrial. (2021). Buenas prácticas ganaderas, ICA; 2020 [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=F1SXng6fIr4&t=227s',
     },
     {
-      texto: 'Plan de implementación',
+      tema: 'Plan de implementación',
+      referencia:
+        'La Finca de Hoy. (2019). Impacto de las BPG en productividad y mercados [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=leSpGVgUde0',
     },
     {
-      texto: 'Documentación y metas BPG',
+      tema: 'Documentación y metas BPG',
+      referencia:
+        'TvAgro. (2018). Requisitos para Certificar una Finca en Buenas Prácticas Ganaderas - TvAgro por Juan Gonzalo Ángel [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=z_g_1Fn4exk',
     },
     {
-      texto: 'Procedimientos, procesos y registros de la implementación BPG',
+      tema: 'Procedimientos, procesos y registros de la implementación BPG',
+      referencia:
+        'Sánchez, L. (2020). BPG en Producción de Carne Bovina [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=CDffdvhbR_c',
     },
     {
-      texto: 'Gestión documental: concepto y técnicas',
+      tema: 'Gestión documental: concepto y técnicas',
+      referencia:
+        'Didáctica Empresarial. (2020). Sistema de gestión documental [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uxLwxvnG2NY',
     },
@@ -173,7 +183,7 @@ export default {
     {
       termino: 'Personal',
       significado:
-        'Conjunto de las personas que que laboran en un lugar, dependencia, ganadería, etc.',
+        'Conjunto de las personas que laboran en un lugar, dependencia, ganadería, etc.',
     },
     {
       termino: 'Resolución',

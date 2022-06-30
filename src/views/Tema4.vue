@@ -34,7 +34,7 @@
           )
           .bloque-texto-g__texto.p-5(data-aos="fade-left")
             h5 La Gestión de Personal<br><br>
-            p.mb-0 Son todas las actividades administrativas de recursos humanos, desde el proceso de contratación hasta la finalización del contrato laboral. Aquí se implican todos los aspectos legales y de seguridad y salud en el trabajo S.ST. de la empresa.
+            p.mb-0 Son todas las actividades administrativas de recursos humanos, desde el proceso de contratación hasta la finalización del contrato laboral. Aquí se implican todos los aspectos legales y de seguridad y salud en el trabajo SST. de la empresa.
     
     p.mb-5 Le presentamos una serie de aspectos clave para la aplicación de las estrategias de comunicación y gestión de personal en la finca ganadera; preste toda su atención y lleve registro de lo más destacado en su libreta personal de apuntes:
 
